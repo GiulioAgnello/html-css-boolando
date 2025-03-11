@@ -53,4 +53,22 @@ ul > li {
   align-items: center;
 }
 
+/* main */
+
+.album {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
 /* footer */
+
+footer {
+  background-color: #0e0e0e;
+}
+
+.footinfo {
+  color: white;
+  padding: 20px;
+}
