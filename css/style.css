@@ -24,10 +24,13 @@ ul {
   border: 2px solid red;
 }
 
-img {
+.logo {
   max-width: 15%;
 }
 
+figure > img {
+  width: 50%;
+}
 /* header */
 
 header {
@@ -60,6 +63,34 @@ ul > li {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+
+figure {
+  position: relative;
+  top: 0 px;
+  left: 0 px;
+  right: 0 px;
+  bottom: 0 px;
+}
+
+.discount {
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+  font-size: small;
+}
+
+.sconto {
+  background-color: red;
+  color: white;
+  padding: 5px;
+}
+
+.sost {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  margin-left: 2px;
 }
 
 /* footer */
