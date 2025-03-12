@@ -53,6 +53,7 @@ header {
   position: sticky;
   top: 0px;
   z-index: 2;
+  border-bottom: 2px solid lightgray;
 }
 
 .iconhead {
